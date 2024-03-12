@@ -6,6 +6,8 @@ class Circle:
     """
     exmple:
         >>> circle1 =Circle(3)
+        >>> circle1.get_radius()
+        3
         >>> circle2 = Circle(4)
         >>> circle3 = circle1.add_area(circle2)
         >>> circle3.get_radius()
